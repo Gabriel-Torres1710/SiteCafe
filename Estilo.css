@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A68069;
+}
+
+header,#banner {
+
+    width: 100%;
+    height: 400px;
+
+}
+
+nav {
+
+    background-color: #8d4925;
+    text-align: center;
+    padding: 10px;
+}
+
+.a-menu {
+    font: 1.2rem 'Avenir', 'Lato', sans-serif;
+
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.a-menu:link,
+.a-menu:visited {
+    color: #eee2b4;
+}
+
+.a-menu:hover,
+.a-menu:active {
+    color: #A68069;
+}
+
+article {
+    width: 100%;
+    background-color: #A68069;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Bookman Old Style', cursive;
+    font-size: 3rem;
+    color: #ffffeb;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Bookman Old Style', cursive;
+    font-size: 2rem;
+    color: #ffffeb;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 20px;
+}
+
+p {
+    font-family: 'Bell-MT', 'Avenir', sans-serif;
+    font-size: 1.3rem;
+    color: #ffffeb;
+    text-align: justify;
+    margin-bottom: 15px;
+    text-indent: 40px;
+    line-height: 30px;
+}
+
+#negritu {
+    font-weight: bold;
+}
+
+#Cafeterias {
+    background-color: #a67b5b;
+    padding: 20px;
+    box-shadow: 0px 4px 8px #8d4925;
+}
+
+#Cafeterias h2 {
+    color: #ffffeb;
+}
+
+#Cafeterias p {
+    color: #ffffeb;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: circle;
+    padding: 20px 50px;
+}
+
+li {
+    font: 1.2rem 'Avenir', 'Lato', sans-serif;
+    color: #ffffeb;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#populares {
+    background-color: #a67b5b;
+    padding: 20px;
+
+}
+
+#container {
+    display: flex;
+}
+
+.card {
+    background-color: #a67b5b;
+    margin: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #8d4925;
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: 4px 8px 16px #8d4925;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content p {
+    font: 1.2rem 'Bell-MT', 'Avenir', sans-serif;
+    line-height: 25px;
+}
+
+h3 {
+    font-family: 'Bookman Old Style', 'cursive';
+    font-size: 1.5rem;
+    color: #ffffeb;
+    text-align: center;
+    margin-bottom: 10%;
+}
+#Torrefação{
+    background-color: #a67b5b;
+}
+#Torrefação p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#container-torrefação{
+    display: flex;
+    margin-top: 20px;
+}
+.colunas-torrefação{
+    padding: 40px;
+}
+.img-icones{
+    width: 25px;
+    height: 25px;
+}
+.container-contatos{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.container-contatos p{
+    color: #ffffeb;
+    padding: 10px 20px 10px 5px;
+
+}
+video{
+    width: 800px;
+}
+footer{
+    background-color: #8d4925;
+    padding: 3px;
+}
+footer p{
+    text-align: center;
+    color: #ffffeb;
+}
+footer a{
+    color: #A68069;
+}
+#P-agendamento{
+    color: #ffffeb;
+}
+#P-agendamento p{
+    text-align: center;
+}
+form{
+    width: 400px;
+    margin: 0 auto;
+}
+input, select,textarea{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    font: 'Bell-MT', 'Avenir', sans-serif;
+    border: none;
+}
+label, fieldset, input, select,textarea{
+    font: 'Bell-MT', 'Avenir', sans-serif;
+}
+fieldset{
+    border: 1px solid #eee2b4;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+#dat-hora-qtd{
+    display: flex;
+}
+input [type="radio"], input [type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+}
+textarea{
+    height: 80px;
+}
+#botoes-form{
+    display: flex;
+}
+input[type="submit"], input[type="reset"]{
+    margin: 20px;
+    background-color: #8d4925;
+    color: #ffffeb;
+    border: 0;
+    border-radius: 5px;
+}
+
