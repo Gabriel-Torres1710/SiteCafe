@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento YAAAAAAAAAAY</title>
+    <link rel="stylesheet" type="text/css" href="Estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <img id="banner" src="IMAGENS\banner.png">
+
+    </header>
+
+    <nav>
+        <a class="a-menu" href="index.html">HOME</a>
+        <a class="a-menu" href="index.html#Cafeterias">Cafeterias</a>
+        <a class="a-menu" href="index.html#Populares">Cafés populares</a>
+        <a class="a-menu" href="index.html#Torrefação">Torrefação</a>
+        <a class="a-menu" href="ClonarCartao.html">Formulário</a>
+    </nav>
+    <section id="P-agendamento">
+        <form name="inscricao" method="get" action="ClonarCartao.html">
+            <p>
+                <label for="nome">Nome:</label>
+                <input id="nome" name="nome_completo" type="text" size="80" placeholder="Digite seu nome comleto">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input focus type="email" id="email" name="email" size="80" placeholder="Digite seu e-mail">
+            </p>
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" size="80" placeholder="Digite sua senha">
+            </p>
+            <p>
+                <label for="celular">Celular:</label>
+                <input type="tel" name="celular" id="celular" size="80" placeholder="(99)99999-9999"
+                    pattern="^\(\d{2}\)\d{5}-\d{4}$" />
+            </p>
+            <div id="data-hora-qtd">
+                <div>
+                    <p>
+                        <label for="data">Data:</label>
+                        <input type="date" name="data" id="data">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="hora">Horas:</label>
+                        <input type="time" name="hora" id="hora">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="quantidade">Quantidade de Pessoas:</label>
+                        <input type="number" name="quantidade" id="quantidade" min="1" max="5" step="1">
+                    </p>
+                </div>
+            </div>
+            <label for="tipo">Opções de café:</label>
+            <select name="tipo" id="tipo">
+                <option value="amargo">café amargo</option>
+                <option value="com_leite"> leite com Café</option>
+                <option value="capuccino">cappucino</option>
+                <option value="adulterado">Café Belga</option>
+            </select>
+
+            <fieldset>
+                <legend>Genêro</legend>
+                <div>
+                <input name="genero" id="masc" type="radio">
+                <label for="masc">Masculino</label>
+                </div>
+                <div>
+                <input name="genero" id="fem" type="radio">
+                <label for="fem">Feminino</label>
+                </div>
+                <div>
+                <input name="genero" id="helicoptero" type="radio">
+                <label for="helicoptero">Helicóptero de combate</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Onde nos conheceu?</legend>
+                <div>
+                <input id="insta" type="checkbox" name="origem" value="instagram">
+                <label for="insta">instagram</label><br>
+                </div>
+                <div>
+                <input id=" face" type="checkbox" name="origem" value="facebook">
+                <label for="face">facebook</label><br>
+                </div>
+                <div>
+                <input id="youtube" type="checkbox" name="origem" value="youtube">
+                <label for="youtube">youtube</label><br>
+                </div>
+                <div>
+                <input id="outro" type="checkbox" name="origem" value="outro">
+                <label for="outro">outro</label><br>
+                </div>
+            </fieldset>
+            <label for="msg">Mensagem:</label><br>
+            <textarea id="msg" cols="52" rows="6"></textarea>
+            <div id="botoes-form">
+            <input type="submit" name="botao_enviar" value="Enviar">
+            <input type="reset" name="botao_limpar" id="Limpar">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>
+            Desenvolvido por
+            <a href="https://i.pinimg.com/736x/3c/1b/82/3c1b82a93831a321ae6c0c8539d19595.jpg" target="_blank"> Gabriel
+                Torres</a>
+        </p>
+    </footer>
+
+
+
+</body>
